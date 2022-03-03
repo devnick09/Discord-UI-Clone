@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+@font-face {
+  font-family: Whitney;
+  src: local("Helvetica Neue Bold"), local("HelveticaNeue-Bold"),
+    url(/src/Fonts/Whitney-Font/whitney-medium.otf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: Whitney-light;
+  src: local("Helvetica Neue Bold"), local("HelveticaNeue-Bold"),
+    url(/src/Fonts/Whitney-Font/whitney-light.otf);
+  font-weight: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Whitney;
+}
+
+code {
+  font-family: whitney;
+}
+
+.layout {
+  width: 1180px;
+  margin: auto;
+  /* background-color: burlywood; */
+}
+
+button {
+  border-radius: 2.5rem;
+  padding: 0.7rem 1rem;
+  border: 0;
+  cursor: pointer;
+  font-family: whitney;
+}
+a {
+  all: unset;
+}
