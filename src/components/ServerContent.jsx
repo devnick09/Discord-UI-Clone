@@ -303,7 +303,7 @@ const ServerContent = () => {
           </li>
           <li className="border"></li>
           <li>
-            <a href={"/login/dashboard/server/" + "codedamn"}>
+            <a href={"/login/dashboard/server/codedamn"}>
               <img
                 src="/assets/CodeDamn.png"
                 alt="CodeDamn_Logo"

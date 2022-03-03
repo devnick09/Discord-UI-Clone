@@ -6,7 +6,7 @@ const Name = window.location.pathname.split("/")[4];
 
 const ServerName = () => {
   console.log(typeof Name);
-  if (Name == "codedamn") {
+  if (Name === "codedamn") {
     return <ServerContent />;
   } else {
     return <NotFound />;

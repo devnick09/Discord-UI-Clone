@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { FiDownload } from "react-icons/fi";
 import "../../node_modules/bootstrap/dist/css/bootstrap-grid.css";
-import { Nav } from "./Nav";
 
 const Main = styled.div`
   position: relative;
@@ -81,7 +80,7 @@ const H1 = styled.h1`
   font-family: "Russo One", sans-serif;
   color: #fff;
 `;
-const Section1_3 = styled.div`
+const SectionCommon = styled.div`
   padding: 6rem 0;
   background-color: #fff;
   h1 {
@@ -210,7 +209,7 @@ const Hero = () => {
           </div>
         </HeroSection>
       </Main>
-      <Section1_3 className="layout">
+      <SectionCommon className="layout">
         <div className="row">
           <img
             className="col-7"
@@ -227,7 +226,7 @@ const Hero = () => {
             </p>
           </div>
         </div>
-      </Section1_3>
+      </SectionCommon>
       <Section2>
         <div className="layout">
           <div className="row">
@@ -249,7 +248,7 @@ const Hero = () => {
           </div>
         </div>
       </Section2>
-      <Section1_3 className="layout">
+      <SectionCommon className="layout">
         <div className="row">
           <img
             className="col-7"
@@ -267,7 +266,7 @@ const Hero = () => {
             </p>
           </div>
         </div>
-      </Section1_3>
+      </SectionCommon>
       <Section4>
         <div className="layout ">
           <div className="col">
